@@ -1,0 +1,254 @@
+/*================COMMON STYLES================*/
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --main-color: #fff;
+  --second-color: #000;
+  --title-color: #212121;
+  --link-color: #757575;
+  --background-color: #f5f4fa;
+  --background-section-color: #2f303a;
+  --box-shadow-color: rgba(0, 0, 0, 0.15);
+  --contact-info-conection-color: rgba(255, 255, 255, 0.6);
+  --line-color: #ececec;
+  --work-categories-color: #eeeeee;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.modal-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+  cursor: pointer;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px var(--box-shadow-color);
+  border-radius: 4px;
+}
+
+/*========HEADER========*/
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-text-white-theme {
+  color: var(--second-color);
+}
+
+.logo-text-dark-theme {
+  color: var(--main-color);
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.active-link {
+  color: var(--accent-color);
+}
+
+.mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+/*========END HEADER========*/
+
+/*========FOOTER========*/
+.contact-info-location {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.contact-info-connection {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contact-info-conection-color);
+}
+
+.footer {
+  background: var(--background-section-color);
+}
+/*========END FOOTER========*/
+/*================END COMMON STYLES================*/
+
+/*================STUDIO================*/
+/*========HERO========*/
+.hero {
+  background-color: var(--background-section-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+/*========END HERO========*/
+
+/*========ADVANTAGE========*/
+.advantage-item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.advantage-item-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+/*========END ADVANTAGE========*/
+
+/*========TEAM========*/
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+/*========END TEAM========*/
+/*================END STUDIO================*/
+
+/*================PORTFOLIO================*/
+/*========FILTER BUTTONS========*/
+.filter-buttons {
+  /*position: absolute;*/
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-buttons:hover,
+.filter-buttons:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
+  color: var(--main-color);
+}
+/*========END FILTER BUTTONS========*/
+
+/*========WORK CATEGORIES========*/
+.work-categories-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.work-categories-product {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+/*========END WORK CATEGORIES========*/
