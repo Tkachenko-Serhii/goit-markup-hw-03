@@ -78,9 +78,6 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-color);
   cursor: pointer;
@@ -88,7 +85,6 @@ img {
   box-shadow: 0px 4px 4px var(--box-shadow-color);
   border-radius: 4px;
   border-style: none;
-  margin: 0 auto;
   padding: 10px 32px;
   min-width: 200px;
   min-height: 50px;
@@ -101,6 +97,10 @@ img {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
 /*========HEADER========*/
 .header {
   padding-top: 24px;
@@ -239,17 +239,15 @@ img {
 }
 
 .hero-position {
-  display: flex;
-  flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 252px;
+  text-align: center;
 }
 /*========END HERO========*/
 
 /*========ADVANTAGE========*/
 .advantage {
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 
 .advantage-list {
@@ -285,7 +283,8 @@ img {
 
 /*========GALLERY========*/
 .gallery {
-  padding-bottom: var(--section-pb);
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
 .gt-title {
@@ -309,8 +308,6 @@ img {
 /*========TEAM========*/
 .team {
   background-color: var(--background-color);
-  padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
 }
 
 .team-list {
