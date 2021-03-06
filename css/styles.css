@@ -40,6 +40,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .visually-hidden {
@@ -86,8 +87,6 @@ img {
   border-radius: 4px;
   border-style: none;
   padding: 10px 32px;
-  min-width: 200px;
-  min-height: 50px;
 }
 
 .container {
@@ -166,8 +165,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--link-color);
-  margin-left: auto;
-  margin-right: 50px;
 }
 
 .mail-link:hover,
@@ -181,11 +178,17 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--link-color);
+  margin-left: 50px;
 }
 
 .tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
+}
+
+.contacts {
+  display: flex;
+  margin-left: auto;
 }
 /*========END HEADER========*/
 
@@ -235,11 +238,16 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-color);
+  max-width: 100%;
+  margin: 0 auto;
+  padding-right: 252px;
+  padding-left: 252px;
   margin-bottom: 30px;
 }
 
 .hero-position {
-  padding: 200px 252px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 /*========END HERO========*/
@@ -260,7 +268,6 @@ img {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 3 - 30px);
-  min-height: 101px;
 }
 
 .advantage-item-title {
@@ -301,7 +308,6 @@ img {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 3 - 30px);
-  min-height: 294px;
 }
 /*========END GALLERY========*/
 
@@ -319,7 +325,6 @@ img {
 .team-item {
   margin-top: 30px;
   margin-left: 30px;
-  min-height: 368px;
   flex-basis: calc(100% / 4 - 30px);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -425,7 +430,6 @@ img {
 .work-categories-item {
   margin-left: 30px;
   margin-top: 30px;
-  min-height: 404px;
   flex-basis: calc(100% / 3 - 30px);
 }
 /*========END WORK CATEGORIES========*/
