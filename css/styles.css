@@ -159,37 +159,28 @@ img {
   margin-right: 50px;
 }
 
-.mail-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--link-color);
-}
-
-.mail-link:hover,
-.mail-link:focus {
-  color: var(--accent-color);
-}
-
-.tel-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--link-color);
-  margin-left: 50px;
-}
-
-.tel-link:hover,
-.tel-link:focus {
-  color: var(--accent-color);
-}
-
 .contacts {
   display: flex;
   margin-left: auto;
 }
+
+.contacts-item-tel {
+  margin-left: 50px;
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
 /*========END HEADER========*/
 
 /*========FOOTER========*/
@@ -238,10 +229,10 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-color);
-  max-width: 100%;
+  max-width: 696px;
   margin: 0 auto;
-  padding-right: 252px;
-  padding-left: 252px;
+  /*padding-right: 252px;
+  padding-left: 252px;*/
   margin-bottom: 30px;
 }
 
@@ -357,10 +348,11 @@ img {
 /*================END STUDIO================*/
 
 /*================PORTFOLIO================*/
-.portfolio-main {
+.work-categories {
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
 }
+
 /*========FILTER BUTTONS========*/
 .filter-buttons {
   border-radius: 4px;
